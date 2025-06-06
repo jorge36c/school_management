@@ -1,0 +1,1 @@
+<?php // Sistema de notificaciones ?>

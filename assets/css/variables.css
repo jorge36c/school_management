@@ -1,0 +1,50 @@
+:root {
+    /* Colores */
+    --primary-color: #3b82f6;
+    --primary-dark: #2563eb;
+    --primary-light: #eff6ff;
+    
+    --success-color: #10b981;
+    --success-dark: #059669;
+    --success-light: #d1fae5;
+    
+    --danger-color: #ef4444;
+    --danger-dark: #dc2626;
+    --danger-light: #fee2e2;
+    
+    --warning-color: #f59e0b;
+    --warning-dark: #d97706;
+    --warning-light: #fef3c7;
+
+    /* Fondos */
+    --bg-white: #ffffff;
+    --bg-light: #f8fafc;
+    
+    /* Texto */
+    --text-dark: #1e293b;
+    --text-muted: #64748b;
+    
+    /* Bordes */
+    --border-color: #e2e8f0;
+    --border-radius: 8px;
+    --border-radius-sm: 6px;
+    --border-radius-lg: 12px;
+    
+    /* Sombras */
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+    --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1);
+    
+    /* Espaciado */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 0.75rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    
+    /* Fuentes */
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+} 

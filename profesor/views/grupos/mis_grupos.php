@@ -1,0 +1,1 @@
+<?php // Visualización de grupos ?>

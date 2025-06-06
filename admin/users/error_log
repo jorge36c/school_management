@@ -1,0 +1,1823 @@
+[25-Mar-2025 15:15:06 America/Bogota] Buscando grados para sede: 15 y nivel: preescolar
+[25-Mar-2025 15:15:06 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 45
+            [nombre] => Preescolar
+        )
+
+)
+
+[25-Mar-2025 15:15:50 America/Bogota] Buscando grados para sede: 15 y nivel: primaria
+[25-Mar-2025 15:15:50 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 51
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 40
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 44
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 41
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 42
+            [nombre] => Tercero A
+        )
+
+)
+
+[26-Mar-2025 15:58:14 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[26-Mar-2025 15:58:14 America/Bogota] Buscando grados para sede: 15 y nivel: primaria
+[26-Mar-2025 15:58:14 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 51
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 40
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 44
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 41
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 42
+            [nombre] => Tercero A
+        )
+
+)
+
+[26-Mar-2025 15:58:16 America/Bogota] Buscando grados para sede: 15 y nivel: preescolar
+[26-Mar-2025 15:58:16 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 45
+            [nombre] => Preescolar
+        )
+
+)
+
+[26-Mar-2025 15:58:50 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[26-Mar-2025 15:58:50 America/Bogota] Buscando grados para sede: 15 y nivel: primaria
+[26-Mar-2025 15:58:50 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 51
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 40
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 44
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 41
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 42
+            [nombre] => Tercero A
+        )
+
+)
+
+[26-Mar-2025 15:58:53 America/Bogota] Buscando grados para sede: 15 y nivel: preescolar
+[26-Mar-2025 15:58:53 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 45
+            [nombre] => Preescolar
+        )
+
+)
+
+[26-Mar-2025 15:59:46 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[26-Mar-2025 15:59:46 America/Bogota] Buscando grados para sede: 15 y nivel: primaria
+[26-Mar-2025 15:59:46 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 51
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 40
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 44
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 41
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 42
+            [nombre] => Tercero A
+        )
+
+)
+
+[26-Mar-2025 15:59:53 America/Bogota] Buscando grados para sede: 15 y nivel: preescolar
+[26-Mar-2025 15:59:53 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 45
+            [nombre] => Preescolar
+        )
+
+)
+
+[26-Mar-2025 16:02:54 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[26-Mar-2025 16:02:56 America/Bogota] Buscando grados para sede: 15 y nivel: preescolar
+[26-Mar-2025 16:02:56 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 45
+            [nombre] => Preescolar
+        )
+
+)
+
+[26-Mar-2025 16:03:03 America/Bogota] Datos POST recibidos:
+[26-Mar-2025 16:03:03 America/Bogota] sede_id: 15
+[26-Mar-2025 16:03:03 America/Bogota] nivel: preescolar
+[26-Mar-2025 16:03:03 America/Bogota] grado_id: 45
+[26-Mar-2025 16:05:23 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[26-Mar-2025 16:05:25 America/Bogota] Buscando grados para sede: 15 y nivel: preescolar
+[26-Mar-2025 16:05:25 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 45
+            [nombre] => Preescolar
+        )
+
+)
+
+[26-Mar-2025 16:05:41 America/Bogota] Datos POST recibidos:
+[26-Mar-2025 16:05:41 America/Bogota] sede_id: 15
+[26-Mar-2025 16:05:41 America/Bogota] nivel: preescolar
+[26-Mar-2025 16:05:41 America/Bogota] grado_id: 45
+[26-Mar-2025 16:06:25 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[26-Mar-2025 16:06:25 America/Bogota] Buscando grados para sede: 15 y nivel: primaria
+[26-Mar-2025 16:06:25 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 51
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 40
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 44
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 41
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 42
+            [nombre] => Tercero A
+        )
+
+)
+
+[26-Mar-2025 16:06:31 America/Bogota] Buscando grados para sede: 15 y nivel: preescolar
+[26-Mar-2025 16:06:31 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 45
+            [nombre] => Preescolar
+        )
+
+)
+
+[26-Mar-2025 16:11:00 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[26-Mar-2025 16:11:00 America/Bogota] Buscando grados para sede: 15 y nivel: primaria
+[26-Mar-2025 16:11:00 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 51
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 40
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 44
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 41
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 42
+            [nombre] => Tercero A
+        )
+
+)
+
+[26-Mar-2025 16:11:06 America/Bogota] Niveles encontrados para sede 5: Array
+(
+    [0] => primaria
+)
+
+[26-Mar-2025 16:11:06 America/Bogota] Buscando grados para sede: 5 y nivel: primaria
+[26-Mar-2025 16:11:06 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 46
+            [nombre] => Primero
+        )
+
+)
+
+[26-Mar-2025 16:13:18 America/Bogota] Niveles encontrados para sede 5: Array
+(
+    [0] => primaria
+)
+
+[26-Mar-2025 16:13:20 America/Bogota] Buscando grados para sede: 5 y nivel: primaria
+[26-Mar-2025 16:13:20 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 46
+            [nombre] => Primero
+        )
+
+)
+
+[26-Mar-2025 16:13:30 America/Bogota] Datos POST recibidos:
+[26-Mar-2025 16:13:30 America/Bogota] sede_id: 5
+[26-Mar-2025 16:13:30 America/Bogota] nivel: primaria
+[26-Mar-2025 16:13:30 America/Bogota] grado_id: 46
+[26-Mar-2025 16:15:01 America/Bogota] Niveles encontrados para sede 5: Array
+(
+    [0] => primaria
+)
+
+[26-Mar-2025 16:15:02 America/Bogota] Buscando grados para sede: 5 y nivel: primaria
+[26-Mar-2025 16:15:02 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 46
+            [nombre] => Primero
+        )
+
+)
+
+[26-Mar-2025 16:15:21 America/Bogota] Datos POST recibidos:
+[26-Mar-2025 16:15:21 America/Bogota] sede_id: 5
+[26-Mar-2025 16:15:21 America/Bogota] nivel: primaria
+[26-Mar-2025 16:15:21 America/Bogota] grado_id: 46
+[26-Mar-2025 16:17:32 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[26-Mar-2025 16:17:32 America/Bogota] Buscando grados para sede: 15 y nivel: preescolar
+[26-Mar-2025 16:17:32 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 45
+            [nombre] => Preescolar
+        )
+
+)
+
+[26-Mar-2025 16:19:37 America/Bogota] DELETE STUDENT - Datos recibidos: Array
+(
+    [id] => 337
+)
+
+[26-Mar-2025 16:19:37 America/Bogota] DELETE STUDENT - ID validado: 337
+[26-Mar-2025 16:19:37 America/Bogota] DELETE STUDENT - Estudiante encontrado: Array
+(
+    [id] => 337
+    [nombre] => Lucia
+    [apellido] => Ortigoza Ortigoza
+)
+
+[26-Mar-2025 16:19:37 America/Bogota] DELETE STUDENT - Eliminación exitosa del estudiante ID: 337
+[26-Mar-2025 16:21:54 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[26-Mar-2025 16:21:54 America/Bogota] Buscando grados para sede: 15 y nivel: primaria
+[26-Mar-2025 16:21:54 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 51
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 40
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 44
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 41
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 42
+            [nombre] => Tercero A
+        )
+
+)
+
+[26-Mar-2025 16:21:59 America/Bogota] Niveles encontrados para sede 13: Array
+(
+)
+
+[26-Mar-2025 16:22:14 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[26-Mar-2025 16:22:14 America/Bogota] Buscando grados para sede: 15 y nivel: primaria
+[26-Mar-2025 16:22:14 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 51
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 40
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 44
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 41
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 42
+            [nombre] => Tercero A
+        )
+
+)
+
+[26-Mar-2025 16:22:19 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => primaria
+)
+
+[26-Mar-2025 16:22:19 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[26-Mar-2025 16:22:19 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+)
+
+[26-Mar-2025 16:23:52 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[26-Mar-2025 16:23:52 America/Bogota] Buscando grados para sede: 15 y nivel: primaria
+[26-Mar-2025 16:23:52 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 51
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 40
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 44
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 41
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 42
+            [nombre] => Tercero A
+        )
+
+)
+
+[26-Mar-2025 16:23:55 America/Bogota] Buscando grados para sede: 15 y nivel: preescolar
+[26-Mar-2025 16:23:55 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 45
+            [nombre] => Preescolar
+        )
+
+)
+
+[26-Mar-2025 16:23:56 America/Bogota] Buscando grados para sede: 15 y nivel: primaria
+[26-Mar-2025 16:23:56 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 51
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 40
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 44
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 41
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 42
+            [nombre] => Tercero A
+        )
+
+)
+
+[26-Mar-2025 16:23:59 America/Bogota] Niveles encontrados para sede 5: Array
+(
+    [0] => primaria
+)
+
+[26-Mar-2025 16:23:59 America/Bogota] Buscando grados para sede: 5 y nivel: primaria
+[26-Mar-2025 16:23:59 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 46
+            [nombre] => Primero
+        )
+
+)
+
+[26-Mar-2025 16:25:08 America/Bogota] Buscando grados para sede: 15 y nivel: secundaria
+[26-Mar-2025 16:25:08 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 39
+            [nombre] => Noveno A
+        )
+
+    [1] => Array
+        (
+            [id] => 38
+            [nombre] => Octavo A
+        )
+
+    [2] => Array
+        (
+            [id] => 49
+            [nombre] => Septimo A
+        )
+
+    [3] => Array
+        (
+            [id] => 36
+            [nombre] => Sexto A
+        )
+
+)
+
+[26-Mar-2025 16:25:19 America/Bogota] Buscando grados para sede: 15 y nivel: media
+[26-Mar-2025 16:25:19 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 34
+            [nombre] => Décimo A
+        )
+
+    [1] => Array
+        (
+            [id] => 35
+            [nombre] => Once A
+        )
+
+)
+
+[26-Mar-2025 16:26:57 America/Bogota] Buscando grados para sede: 15 y nivel: secundaria
+[26-Mar-2025 16:26:57 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 39
+            [nombre] => Noveno A
+        )
+
+    [1] => Array
+        (
+            [id] => 38
+            [nombre] => Octavo A
+        )
+
+    [2] => Array
+        (
+            [id] => 49
+            [nombre] => Septimo A
+        )
+
+    [3] => Array
+        (
+            [id] => 36
+            [nombre] => Sexto A
+        )
+
+)
+
+[26-Mar-2025 16:27:44 America/Bogota] Buscando grados para sede: 15 y nivel: secundaria
+[26-Mar-2025 16:27:44 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 39
+            [nombre] => Noveno A
+        )
+
+    [1] => Array
+        (
+            [id] => 38
+            [nombre] => Octavo A
+        )
+
+    [2] => Array
+        (
+            [id] => 49
+            [nombre] => Septimo A
+        )
+
+    [3] => Array
+        (
+            [id] => 36
+            [nombre] => Sexto A
+        )
+
+)
+
+[27-Mar-2025 08:19:00 America/Bogota] Buscando grados para sede: 5 y nivel: primaria
+[27-Mar-2025 08:19:00 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 46
+            [nombre] => Primero
+        )
+
+)
+
+[27-Mar-2025 16:03:45 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 16:03:45 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+)
+
+[27-Mar-2025 19:25:44 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[27-Mar-2025 19:25:44 America/Bogota] Buscando grados para sede: 15 y nivel: primaria
+[27-Mar-2025 19:25:44 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 51
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 40
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 44
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 41
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 42
+            [nombre] => Tercero A
+        )
+
+)
+
+[27-Mar-2025 19:25:50 America/Bogota] Buscando grados para sede: 15 y nivel: media
+[27-Mar-2025 19:25:50 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 34
+            [nombre] => Décimo A
+        )
+
+    [1] => Array
+        (
+            [id] => 35
+            [nombre] => Once A
+        )
+
+)
+
+[27-Mar-2025 20:34:31 America/Bogota] Buscando grados para sede: 15 y nivel: secundaria
+[27-Mar-2025 20:34:31 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 39
+            [nombre] => Noveno A
+        )
+
+    [1] => Array
+        (
+            [id] => 38
+            [nombre] => Octavo A
+        )
+
+    [2] => Array
+        (
+            [id] => 49
+            [nombre] => Septimo A
+        )
+
+    [3] => Array
+        (
+            [id] => 36
+            [nombre] => Sexto A
+        )
+
+)
+
+[27-Mar-2025 21:32:40 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => primaria
+)
+
+[27-Mar-2025 21:32:42 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 21:32:42 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+)
+
+[27-Mar-2025 21:33:14 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 21:33:15 America/Bogota] Buscando grados para sede: 13 y nivel: preescolar
+[27-Mar-2025 21:33:15 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 112
+            [nombre] => Preescolar
+        )
+
+)
+
+[27-Mar-2025 21:34:03 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 21:34:03 America/Bogota] sede_id: 13
+[27-Mar-2025 21:34:03 America/Bogota] nivel: preescolar
+[27-Mar-2025 21:34:03 America/Bogota] grado_id: 112
+[27-Mar-2025 21:34:41 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 21:34:41 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 21:34:41 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+)
+
+[27-Mar-2025 21:34:48 America/Bogota] Buscando grados para sede: 13 y nivel: preescolar
+[27-Mar-2025 21:34:48 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 112
+            [nombre] => Preescolar
+        )
+
+)
+
+[27-Mar-2025 21:36:57 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 21:36:59 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 21:36:59 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+)
+
+[27-Mar-2025 21:37:04 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 21:37:04 America/Bogota] sede_id: 13
+[27-Mar-2025 21:37:04 America/Bogota] nivel: primaria
+[27-Mar-2025 21:37:04 America/Bogota] grado_id: 111
+[27-Mar-2025 21:38:11 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 21:38:14 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 21:38:14 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+)
+
+[27-Mar-2025 21:38:24 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 21:38:24 America/Bogota] sede_id: 13
+[27-Mar-2025 21:38:24 America/Bogota] nivel: primaria
+[27-Mar-2025 21:38:24 America/Bogota] grado_id: 111
+[27-Mar-2025 21:42:02 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 21:42:03 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 21:42:03 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 115
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 116
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 113
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 114
+            [nombre] => Tercero A
+        )
+
+)
+
+[27-Mar-2025 21:42:18 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 21:42:18 America/Bogota] sede_id: 13
+[27-Mar-2025 21:42:18 America/Bogota] nivel: primaria
+[27-Mar-2025 21:42:18 America/Bogota] grado_id: 111
+[27-Mar-2025 21:44:32 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 21:44:33 America/Bogota] Buscando grados para sede: 13 y nivel: preescolar
+[27-Mar-2025 21:44:33 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 112
+            [nombre] => Preescolar
+        )
+
+)
+
+[27-Mar-2025 21:44:35 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 21:44:35 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 115
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 116
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 113
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 114
+            [nombre] => Tercero A
+        )
+
+)
+
+[27-Mar-2025 21:44:49 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 21:44:49 America/Bogota] sede_id: 13
+[27-Mar-2025 21:44:49 America/Bogota] nivel: primaria
+[27-Mar-2025 21:44:49 America/Bogota] grado_id: 113
+[27-Mar-2025 21:45:38 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 21:45:40 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 21:45:40 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 115
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 116
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 113
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 114
+            [nombre] => Tercero A
+        )
+
+)
+
+[27-Mar-2025 21:46:00 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 21:46:00 America/Bogota] sede_id: 13
+[27-Mar-2025 21:46:00 America/Bogota] nivel: primaria
+[27-Mar-2025 21:46:00 America/Bogota] grado_id: 113
+[27-Mar-2025 21:49:21 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 21:49:24 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 21:49:24 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 115
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 116
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 113
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 114
+            [nombre] => Tercero A
+        )
+
+)
+
+[27-Mar-2025 21:49:36 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 21:49:36 America/Bogota] sede_id: 13
+[27-Mar-2025 21:49:36 America/Bogota] nivel: primaria
+[27-Mar-2025 21:49:36 America/Bogota] grado_id: 113
+[27-Mar-2025 21:50:31 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 21:50:32 America/Bogota] Buscando grados para sede: 13 y nivel: preescolar
+[27-Mar-2025 21:50:32 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 112
+            [nombre] => Preescolar
+        )
+
+)
+
+[27-Mar-2025 21:50:33 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 21:50:33 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 115
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 116
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 113
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 114
+            [nombre] => Tercero A
+        )
+
+)
+
+[27-Mar-2025 21:50:49 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 21:50:49 America/Bogota] sede_id: 13
+[27-Mar-2025 21:50:49 America/Bogota] nivel: primaria
+[27-Mar-2025 21:50:49 America/Bogota] grado_id: 114
+[27-Mar-2025 21:52:01 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 21:52:02 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 21:52:02 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 115
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 116
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 113
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 114
+            [nombre] => Tercero A
+        )
+
+)
+
+[27-Mar-2025 21:52:08 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 21:52:08 America/Bogota] sede_id: 13
+[27-Mar-2025 21:52:08 America/Bogota] nivel: primaria
+[27-Mar-2025 21:52:08 America/Bogota] grado_id: 114
+[27-Mar-2025 21:53:47 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 21:53:49 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 21:53:49 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 115
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 116
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 113
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 114
+            [nombre] => Tercero A
+        )
+
+)
+
+[27-Mar-2025 21:54:15 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 21:54:15 America/Bogota] sede_id: 13
+[27-Mar-2025 21:54:15 America/Bogota] nivel: primaria
+[27-Mar-2025 21:54:15 America/Bogota] grado_id: 114
+[27-Mar-2025 21:55:11 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 21:55:13 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 21:55:13 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 115
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 116
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 113
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 114
+            [nombre] => Tercero A
+        )
+
+)
+
+[27-Mar-2025 21:55:25 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 21:55:25 America/Bogota] sede_id: 13
+[27-Mar-2025 21:55:25 America/Bogota] nivel: primaria
+[27-Mar-2025 21:55:25 America/Bogota] grado_id: 114
+[27-Mar-2025 21:59:57 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 22:00:29 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 22:00:29 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 115
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 116
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 113
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 114
+            [nombre] => Tercero A
+        )
+
+)
+
+[27-Mar-2025 22:00:48 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 22:00:48 America/Bogota] sede_id: 13
+[27-Mar-2025 22:00:48 America/Bogota] nivel: primaria
+[27-Mar-2025 22:00:48 America/Bogota] grado_id: 113
+[27-Mar-2025 22:01:44 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 22:01:46 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 22:01:46 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 115
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 116
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 113
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 114
+            [nombre] => Tercero A
+        )
+
+)
+
+[27-Mar-2025 22:02:10 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 22:02:10 America/Bogota] sede_id: 13
+[27-Mar-2025 22:02:10 America/Bogota] nivel: primaria
+[27-Mar-2025 22:02:10 America/Bogota] grado_id: 115
+[27-Mar-2025 22:03:08 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 22:03:10 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 22:03:10 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 115
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 116
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 113
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 114
+            [nombre] => Tercero A
+        )
+
+)
+
+[27-Mar-2025 22:03:27 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 22:03:27 America/Bogota] sede_id: 13
+[27-Mar-2025 22:03:27 America/Bogota] nivel: primaria
+[27-Mar-2025 22:03:27 America/Bogota] grado_id: 116
+[27-Mar-2025 22:04:24 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 22:04:26 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 22:04:26 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 115
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 116
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 113
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 114
+            [nombre] => Tercero A
+        )
+
+)
+
+[27-Mar-2025 22:04:40 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 22:04:40 America/Bogota] sede_id: 13
+[27-Mar-2025 22:04:40 America/Bogota] nivel: primaria
+[27-Mar-2025 22:04:40 America/Bogota] grado_id: 115
+[27-Mar-2025 22:05:59 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 22:06:00 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 22:06:00 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 115
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 116
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 113
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 114
+            [nombre] => Tercero A
+        )
+
+)
+
+[27-Mar-2025 22:06:27 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 22:06:27 America/Bogota] sede_id: 13
+[27-Mar-2025 22:06:27 America/Bogota] nivel: primaria
+[27-Mar-2025 22:06:27 America/Bogota] grado_id: 115
+[27-Mar-2025 22:07:54 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 22:07:59 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 22:07:59 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 115
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 116
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 113
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 114
+            [nombre] => Tercero A
+        )
+
+)
+
+[27-Mar-2025 22:08:10 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 22:08:10 America/Bogota] sede_id: 13
+[27-Mar-2025 22:08:10 America/Bogota] nivel: primaria
+[27-Mar-2025 22:08:10 America/Bogota] grado_id: 115
+[27-Mar-2025 22:09:08 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[27-Mar-2025 22:09:10 America/Bogota] Buscando grados para sede: 13 y nivel: primaria
+[27-Mar-2025 22:09:10 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 115
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [id] => 111
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [id] => 116
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [id] => 113
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [id] => 114
+            [nombre] => Tercero A
+        )
+
+)
+
+[27-Mar-2025 22:09:24 America/Bogota] Datos POST recibidos:
+[27-Mar-2025 22:09:24 America/Bogota] sede_id: 13
+[27-Mar-2025 22:09:24 America/Bogota] nivel: primaria
+[27-Mar-2025 22:09:24 America/Bogota] grado_id: 115
+[27-Mar-2025 22:58:14 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[27-Mar-2025 22:58:14 America/Bogota] Buscando grados para sede: 15 y nivel: media
+[27-Mar-2025 22:58:14 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 34
+            [nombre] => Décimo A
+        )
+
+    [1] => Array
+        (
+            [id] => 35
+            [nombre] => Once A
+        )
+
+)
+
+[27-Mar-2025 22:58:30 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[27-Mar-2025 22:58:30 America/Bogota] Buscando grados para sede: 15 y nivel: media
+[27-Mar-2025 22:58:30 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 34
+            [nombre] => Décimo A
+        )
+
+    [1] => Array
+        (
+            [id] => 35
+            [nombre] => Once A
+        )
+
+)
+
+[27-Mar-2025 22:58:53 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[27-Mar-2025 22:58:53 America/Bogota] Buscando grados para sede: 15 y nivel: media
+[27-Mar-2025 22:58:53 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 34
+            [nombre] => Décimo A
+        )
+
+    [1] => Array
+        (
+            [id] => 35
+            [nombre] => Once A
+        )
+
+)
+
+[27-Mar-2025 22:59:03 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[27-Mar-2025 22:59:03 America/Bogota] Buscando grados para sede: 15 y nivel: media
+[27-Mar-2025 22:59:03 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 34
+            [nombre] => Décimo A
+        )
+
+    [1] => Array
+        (
+            [id] => 35
+            [nombre] => Once A
+        )
+
+)
+
+[27-Mar-2025 22:59:23 America/Bogota] Niveles encontrados para sede 15: Array
+(
+    [0] => preescolar
+    [1] => primaria
+    [2] => secundaria
+    [3] => media
+)
+
+[27-Mar-2025 22:59:23 America/Bogota] Buscando grados para sede: 15 y nivel: media
+[27-Mar-2025 22:59:23 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 34
+            [nombre] => Décimo A
+        )
+
+    [1] => Array
+        (
+            [id] => 35
+            [nombre] => Once A
+        )
+
+)
+
+[28-Mar-2025 12:50:03 America/Bogota] Niveles encontrados para sede 13: Array
+(
+    [0] => preescolar
+    [1] => primaria
+)
+
+[28-Mar-2025 12:50:03 America/Bogota] Buscando grados para sede: 13 y nivel: preescolar
+[28-Mar-2025 12:50:03 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 112
+            [nombre] => Preescolar
+        )
+
+)
+
+[28-Mar-2025 12:52:21 America/Bogota] Buscando grados para sede: 13 y nivel: preescolar
+[28-Mar-2025 12:52:21 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [id] => 112
+            [nombre] => Preescolar
+        )
+
+)
+

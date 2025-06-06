@@ -1,0 +1,40 @@
+/* Estilos específicos para la página de profesores */
+
+/* Colores temáticos para profesores */
+:root {
+    --teacher-primary: #4f46e5;
+    --teacher-primary-light: rgba(79, 70, 229, 0.1);
+    --teacher-secondary: #8b5cf6;
+    --teacher-success: #10b981;
+    --teacher-danger: #ef4444;
+    --teacher-info: #3b82f6;
+}
+
+/* Ajustes de espaciado */
+.main-content {
+    padding: 1.5rem;
+}
+
+/* Sobrescribir colores para profesores */
+.teacher-header {
+    background: linear-gradient(135deg, #4338ca 0%, #6366f1 100%);
+}
+
+.info-icon {
+    background-color: var(--teacher-primary-light);
+    color: var(--teacher-primary);
+}
+
+/* Animaciones sutiles */
+.teacher-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.teacher-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilos para modales específicos de profesores */
+.asignacion-materia span i {
+    color: var(--teacher-secondary);
+}

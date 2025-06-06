@@ -1,0 +1,162 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;|
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Estilos del título principal */
+.main-title {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Estilos de la tarjeta principal */
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+/* Título de selección de usuario */
+.select-title {
+    font-size: 1.8em;
+    margin-bottom: 40px;
+    color: #333;
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.select-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    border-radius: 2px;
+}
+
+/* Grid de roles */
+.roles-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+/* Estilos de cada rol */
+.role-card {
+    flex: 1;
+    min-width: 200px;
+    max-width: calc(25% - 15px); /* Para 4 tarjetas en línea */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 15px;
+    background: #f8f9fa;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.role-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-color: #43cea2;
+}
+
+/* Íconos de roles */
+.role-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #0066ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.role-icon i {
+    font-size: 1.8em;
+    color: white;
+}
+
+/* Texto de roles */
+.role-title {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-align: center;
+    color: #2d3436;
+}
+
+.role-description {
+    font-size: 0.9em;
+    color: #636e72;
+    text-align: center;
+    line-height: 1.4;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .role-card {
+        max-width: calc(50% - 10px);
+    }
+    
+    .roles-grid {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .role-card {
+        max-width: 100%;
+    }
+
+    .main-title {
+        font-size: 2em;
+    }
+
+    .select-title {
+        font-size: 1.5em;
+    }
+    
+    .card {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,48 @@
+/* Estilos específicos para la página de estudiantes */
+
+/* Colores temáticos para estudiantes */
+:root {
+    --student-primary: #3b82f6;
+    --student-primary-light: rgba(59, 130, 246, 0.1);
+    --student-secondary: #1d4ed8;
+    --student-success: #10b981;
+    --student-warning: #f59e0b;
+    --student-danger: #ef4444;
+}
+
+/* Ajustes de espaciado */
+.main-content {
+    padding: 1.5rem;
+}
+
+/* Sobrescribir colores para estudiantes */
+.student-header {
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+}
+
+.info-icon {
+    background-color: var(--student-primary-light);
+    color: var(--student-primary);
+}
+
+/* Animaciones sutiles */
+.student-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.student-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilos para los botones de acción */
+.btn-edit:hover {
+    background: #2563eb;
+}
+
+.btn-password:hover {
+    background: #d97706;
+}
+
+.btn-delete:hover {
+    background: #dc2626;
+}

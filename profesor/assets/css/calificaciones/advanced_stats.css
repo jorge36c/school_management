@@ -1,0 +1,226 @@
+/* Advanced Stats Styles - Módulo de estadísticas avanzadas */
+.advanced-stats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-5);
+    margin: var(--spacing-6) 0;
+}
+
+.stats-panel {
+    background: var(--color-white);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-5);
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-normal);
+    overflow: hidden;
+}
+
+.stats-panel:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
+}
+
+.stats-title {
+    display: flex;
+    align-items: center;
+    font-size: var(--font-size-lg);
+    color: var(--color-gray-800);
+    margin-bottom: var(--spacing-4);
+    padding-bottom: var(--spacing-3);
+    border-bottom: 1px solid var(--color-gray-200);
+}
+
+.stats-title i {
+    margin-right: var(--spacing-2);
+    color: var(--color-primary);
+}
+
+.niveles-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-2);
+    margin-bottom: var(--spacing-4);
+}
+
+.nivel-stat {
+    display: flex;
+    align-items: center;
+    background: var(--color-gray-100);
+    padding: var(--spacing-1) var(--spacing-2);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-sm);
+}
+
+.nivel-name {
+    font-weight: 500;
+    color: var(--color-gray-700);
+    margin-right: var(--spacing-2);
+}
+
+.nivel-count {
+    background: var(--color-primary);
+    color: white;
+    padding: 0 var(--spacing-2);
+    border-radius: var(--radius-full);
+    font-weight: 600;
+    min-width: 20px;
+    text-align: center;
+}
+
+.chart-container {
+    height: 180px;
+    margin-top: var(--spacing-4);
+    position: relative;
+}
+
+/* Gráfico de barras simple */
+.simple-chart {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: var(--spacing-3);
+}
+
+.chart-bar-container {
+    display: flex;
+    align-items: center;
+    height: 28px;
+}
+
+.chart-label {
+    width: 100px;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    text-align: right;
+    padding-right: var(--spacing-3);
+    color: var(--color-gray-700);
+}
+
+.chart-bar {
+    height: 24px;
+    min-width: 30px;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 var(--spacing-2);
+    color: white;
+    font-weight: 500;
+    font-size: var(--font-size-xs);
+    box-shadow: var(--shadow-sm);
+    transition: width 1s ease-out;
+    animation: growBar 1.5s ease-out;
+}
+
+.chart-value {
+    margin-left: var(--spacing-2);
+}
+
+@keyframes growBar {
+    from { width: 0; }
+}
+
+/* Gráfico circular para progreso */
+.circular-progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: var(--spacing-5);
+}
+
+.progress-circle {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient(
+        var(--color-primary) calc(var(--percentage) * 1%),
+        var(--color-gray-200) 0
+    );
+    animation: rotateFill 2s ease-out;
+}
+
+.progress-circle::before {
+    content: '';
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: white;
+}
+
+.progress-value {
+    position: relative;
+    z-index: 1;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--color-gray-800);
+}
+
+.progress-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.progress-title {
+    font-weight: 600;
+    color: var(--color-gray-800);
+}
+
+.progress-stats {
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-600);
+    margin-top: var(--spacing-1);
+}
+
+@keyframes rotateFill {
+    from { transform: rotate(-90deg); opacity: 0; }
+    to { transform: rotate(0); opacity: 1; }
+}
+
+/* Clase para actualización visual de contadores */
+.counter-updated {
+    animation: pulse 1s;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); color: var(--color-primary); }
+    100% { transform: scale(1); }
+}
+
+.progress-high .progress-circle {
+    background: conic-gradient(
+        var(--color-success) calc(var(--percentage) * 1%),
+        var(--color-gray-200) 0
+    );
+}
+
+.progress-medium .progress-circle {
+    background: conic-gradient(
+        var(--color-warning) calc(var(--percentage) * 1%),
+        var(--color-gray-200) 0
+    );
+}
+
+.progress-low .progress-circle {
+    background: conic-gradient(
+        var(--color-danger) calc(var(--percentage) * 1%),
+        var(--color-gray-200) 0
+    );
+}
+
+/* Estado vacío para estadísticas */
+.empty-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--color-gray-500);
+    font-style: italic;
+}

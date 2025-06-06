@@ -1,0 +1,345 @@
+/**
+ * Estilos para el sidebar del módulo profesor
+ */
+
+ :root {
+    /* Medidas */
+    --sidebar-width: 280px;
+    --sidebar-collapsed-width: 70px;
+    --header-height: 64px;
+    
+    /* Efectos */
+    --transition-speed: 0.25s;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: var(--sidebar-width);
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    transition: width var(--transition-speed) ease-in-out, transform var(--transition-speed) ease-in-out;
+    box-shadow: var(--box-shadow);
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.sidebar.flat {
+    background: var(--primary-color) !important;
+}
+
+.sidebar.gradient {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)) !important;
+}
+
+.sidebar.default {
+    background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color)) !important;
+}
+
+/* Estilos del encabezado */
+.sidebar-header {
+    height: var(--header-height);
+    padding: 0 1.25rem;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.logo i, .logo img {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.logo span {
+    font-size: 1.25rem;
+    font-weight: 600;
+    white-space: nowrap;
+    color: var(--text-color);
+}
+
+.sidebar-toggle {
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
+    transition: background-color var(--transition-speed) ease;
+}
+
+.sidebar-toggle:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-toggle:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+/* Estilos de navegación */
+.sidebar-nav {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem 0;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-section {
+    padding: 1rem 1.25rem 0.5rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-item {
+    margin: 0.25rem 0;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1.25rem;
+    color: var(--text-color); /* Siempre texto blanco */
+    text-decoration: none;
+    border-radius: 0;
+    transition: all var(--transition-speed) ease;
+    position: relative;
+    border-left: 4px solid transparent;
+}
+
+.nav-link i {
+    width: 1.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+    transition: transform var(--transition-speed) ease;
+    color: var(--text-color); /* Iconos siempre blancos */
+}
+
+.nav-link span {
+    white-space: nowrap;
+    opacity: 1;
+    transition: opacity var(--transition-speed) ease;
+    color: var(--text-color); /* Texto siempre blanco */
+}
+
+.nav-link:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-left-color: var(--text-color);
+}
+
+.nav-link:hover i {
+    transform: translateX(3px);
+}
+
+.nav-link.active {
+    background: var(--active-color); /* Fondo azul cuando está activo */
+    border-left-color: white;
+    font-weight: 500;
+    color: var(--text-color); /* Texto siempre blanco */
+}
+
+.nav-link.active i,
+.nav-link.active span {
+    color: var(--text-color); /* Iconos y texto siempre blancos cuando activo */
+}
+
+/* Estilos de scrollbar */
+.sidebar-nav::-webkit-scrollbar {
+    width: 5px;
+}
+
+.sidebar-nav::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sidebar-nav::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.sidebar-nav::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Estado colapsado */
+.sidebar.collapsed {
+    width: var(--sidebar-collapsed-width);
+}
+
+.sidebar.collapsed .logo span,
+.sidebar.collapsed .nav-link span,
+.sidebar.collapsed .nav-section {
+    opacity: 0;
+    display: none;
+}
+
+.sidebar.collapsed .nav-link {
+    justify-content: center;
+    padding: 0.75rem;
+}
+
+.sidebar.collapsed .periodo-countdown {
+    display: none;
+}
+
+/* Componente del contador de periodo */
+.periodo-countdown {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: opacity var(--transition-speed) ease, transform var(--transition-speed) ease;
+}
+
+.periodo-info {
+    margin-bottom: 1rem;
+}
+
+.periodo-info h3 {
+    color: var(--text-color);
+    font-size: 1rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.periodo-info p {
+    color: var(--text-color);
+    opacity: 0.9;
+    font-size: 0.875rem;
+    margin: 0;
+}
+
+.countdown-container {
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: var(--border-radius);
+    padding: 0.75rem;
+}
+
+.countdown-header {
+    color: var(--text-color);
+    opacity: 0.8;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.countdown-timer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    text-align: center;
+}
+
+.countdown-item {
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: var(--border-radius);
+    padding: 0.5rem 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-item span {
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-weight: 600;
+    display: block;
+}
+
+.countdown-item label {
+    color: var(--text-muted);
+    font-size: 0.7rem;
+    margin-top: 0.25rem;
+    display: block;
+    text-transform: uppercase;
+}
+
+/* Animación de cambio de números */
+@keyframes numberChange {
+    0% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.number-changed {
+    animation: numberChange 0.4s ease-out;
+}
+
+/* Estilos responsive */
+@media (max-width: 991.98px) {
+    .sidebar {
+        transform: translateX(-100%);
+        box-shadow: none;
+    }
+    
+    .sidebar.active {
+        transform: translateX(0);
+        box-shadow: var(--box-shadow);
+    }
+    
+    .sidebar-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(2px);
+        z-index: 999;
+        transition: opacity var(--transition-speed) ease;
+    }
+    
+    .sidebar.active ~ .sidebar-overlay {
+        display: block;
+    }
+    
+    .main-content {
+        margin-left: 0 !important;
+    }
+}
+
+/* Transición del contenido principal */
+.main-content {
+    margin-left: var(--sidebar-width);
+    transition: margin var(--transition-speed) ease;
+}
+
+.main-content.expanded {
+    margin-left: var(--sidebar-collapsed-width);
+}
+
+/* Efecto hover para mejorar experiencia de usuario */
+@media (hover: hover) {
+    .nav-link:hover {
+        transform: translateX(4px);
+    }
+}
+
+/* Accesibilidad - focus visible */
+.nav-link:focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: -2px;
+}

@@ -1,0 +1,1 @@
+<?php // Plantilla principal ?>

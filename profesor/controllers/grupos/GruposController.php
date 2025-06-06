@@ -1,0 +1,1 @@
+<?php // Gestión de grupos ?>

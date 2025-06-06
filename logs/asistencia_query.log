@@ -1,0 +1,111 @@
+[2025-05-08 16:05:58] Consulta SQL: 
+        SELECT 
+            a.id,
+            a.estudiante_id,
+            e.nombre as estudiante_nombre,
+            e.apellido as estudiante_apellido,
+            a.asignacion_id,
+            a.fecha,
+            a.estado,
+            a.created_at,
+            a.updated_at
+        FROM asistencias a
+        JOIN estudiantes e ON a.estudiante_id = e.id
+        WHERE a.asignacion_id = :asignacion_id
+     ORDER BY a.fecha DESC, e.apellido, e.nombre
+[2025-05-08 16:05:58] Parámetros: {":asignacion_id":"152"}
+[2025-05-08 16:05:58] Registros encontrados: 1
+[2025-05-08 16:05:58] Muestra de registros: [{"id":2512,"estudiante_id":287,"estudiante_nombre":"Santiago","estudiante_apellido":"Alape Garcia","asignacion_id":152,"fecha":"2025-05-08","estado":"presente","created_at":"2025-05-08 08:54:37","updated_at":"2025-05-08 08:54:37"}]
+[2025-05-08 16:05:58] Registro asistencia - Estudiante: 287, Fecha: 2025-05-08, Estado: presente
+[2025-05-08 16:05:58] Estructura final: [{"nombre":"May 2025","dias_count":1,"primer_dia":{"fecha":"2025-05-08","asistencias_count":1}}]
+[2025-05-08 16:06:26] Consulta SQL: 
+        SELECT 
+            a.id,
+            a.estudiante_id,
+            e.nombre as estudiante_nombre,
+            e.apellido as estudiante_apellido,
+            a.asignacion_id,
+            a.fecha,
+            a.estado,
+            a.created_at,
+            a.updated_at
+        FROM asistencias a
+        JOIN estudiantes e ON a.estudiante_id = e.id
+        WHERE a.asignacion_id = :asignacion_id
+     ORDER BY a.fecha DESC, e.apellido, e.nombre
+[2025-05-08 16:06:26] Parámetros: {":asignacion_id":"152"}
+[2025-05-08 16:06:26] Registros encontrados: 0
+[2025-05-08 16:06:28] Consulta SQL: 
+        SELECT 
+            a.id,
+            a.estudiante_id,
+            e.nombre as estudiante_nombre,
+            e.apellido as estudiante_apellido,
+            a.asignacion_id,
+            a.fecha,
+            a.estado,
+            a.created_at,
+            a.updated_at
+        FROM asistencias a
+        JOIN estudiantes e ON a.estudiante_id = e.id
+        WHERE a.asignacion_id = :asignacion_id
+     ORDER BY a.fecha DESC, e.apellido, e.nombre
+[2025-05-08 16:06:28] Parámetros: {":asignacion_id":"152"}
+[2025-05-08 16:06:28] Registros encontrados: 0
+[2025-05-08 16:06:29] Consulta SQL: 
+        SELECT 
+            a.id,
+            a.estudiante_id,
+            e.nombre as estudiante_nombre,
+            e.apellido as estudiante_apellido,
+            a.asignacion_id,
+            a.fecha,
+            a.estado,
+            a.created_at,
+            a.updated_at
+        FROM asistencias a
+        JOIN estudiantes e ON a.estudiante_id = e.id
+        WHERE a.asignacion_id = :asignacion_id
+     ORDER BY a.fecha DESC, e.apellido, e.nombre
+[2025-05-08 16:06:29] Parámetros: {":asignacion_id":"152"}
+[2025-05-08 16:06:29] Registros encontrados: 0
+[2025-05-08 16:07:07] Consulta SQL: 
+        SELECT 
+            a.id,
+            a.estudiante_id,
+            e.nombre as estudiante_nombre,
+            e.apellido as estudiante_apellido,
+            a.asignacion_id,
+            a.fecha,
+            a.estado,
+            a.created_at,
+            a.updated_at
+        FROM asistencias a
+        JOIN estudiantes e ON a.estudiante_id = e.id
+        WHERE a.asignacion_id = :asignacion_id
+     ORDER BY a.fecha DESC, e.apellido, e.nombre
+[2025-05-08 16:07:07] Parámetros: {":asignacion_id":"152"}
+[2025-05-08 16:07:07] Registros encontrados: 1
+[2025-05-08 16:07:07] Muestra de registros: [{"id":2513,"estudiante_id":287,"estudiante_nombre":"Santiago","estudiante_apellido":"Alape Garcia","asignacion_id":152,"fecha":"2025-05-08","estado":"presente","created_at":"2025-05-08 09:07:03","updated_at":"2025-05-08 09:07:03"}]
+[2025-05-08 16:07:07] Registro asistencia - Estudiante: 287, Fecha: 2025-05-08, Estado: presente
+[2025-05-08 16:07:07] Estructura final: [{"nombre":"May 2025","dias_count":1,"primer_dia":{"fecha":"2025-05-08","asistencias_count":1}}]
+[2025-05-08 19:05:41] Consulta SQL: 
+        SELECT 
+            a.id,
+            a.estudiante_id,
+            e.nombre as estudiante_nombre,
+            e.apellido as estudiante_apellido,
+            a.asignacion_id,
+            a.fecha,
+            a.estado,
+            a.created_at,
+            a.updated_at
+        FROM asistencias a
+        JOIN estudiantes e ON a.estudiante_id = e.id
+        WHERE a.asignacion_id = :asignacion_id
+     ORDER BY a.fecha DESC, e.apellido, e.nombre
+[2025-05-08 19:05:41] Parámetros: {":asignacion_id":"152"}
+[2025-05-08 19:05:41] Registros encontrados: 1
+[2025-05-08 19:05:41] Muestra de registros: [{"id":2513,"estudiante_id":287,"estudiante_nombre":"Santiago","estudiante_apellido":"Alape Garcia","asignacion_id":152,"fecha":"2025-05-08","estado":"presente","created_at":"2025-05-08 09:07:03","updated_at":"2025-05-08 09:07:03"}]
+[2025-05-08 19:05:41] Registro asistencia - Estudiante: 287, Fecha: 2025-05-08, Estado: presente
+[2025-05-08 19:05:41] Estructura final: [{"nombre":"May 2025","dias_count":1,"primer_dia":{"fecha":"2025-05-08","asistencias_count":1}}]

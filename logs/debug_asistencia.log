@@ -1,0 +1,3 @@
+2025-05-08 16:07:03 - Datos recibidos: {"asistencias":[{"matricula_id":"287","asignatura_id":"152","fecha":"2025-05-08","estado":"presente","observaciones":""}],"asignacion_id":"152"}
+2025-05-08 16:07:03 - Nueva asistencia ID 2513 para estudiante 287 en fecha 2025-05-08 con estado: presente
+2025-05-08 16:07:03 - Transacción completada: 1 registros guardados

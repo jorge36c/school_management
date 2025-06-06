@@ -1,0 +1,1315 @@
+/* ver_estudiantes.css - Optimizado con soporte para nombres completos */
+
+:root {
+    /* Colores principales */
+    --body-bg: #f8fafc;
+    --content-bg: #ffffff;
+    --border-color: #e2e8f0;
+    --text-primary: #334155;
+    --text-secondary: #64748b;
+    --primary-color: #3b82f6;
+    --primary-light: #dbeafe;
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --danger-color: #ef4444;
+    
+    /* Categorías */
+    --tareas-color: #0284c7;
+    --tareas-light: #e0f2fe;
+    --evaluaciones-color: #7c3aed;
+    --evaluaciones-light: #f3e8ff;
+    --autoevaluacion-color: #16a34a;
+    --autoevaluacion-light: #dcfce7;
+    
+    /* Notas */
+    --nota-excelente: #10b981;
+    --nota-buena: #3b82f6;
+    --nota-aceptable: #f59e0b;
+    --nota-baja: #ef4444;
+    
+    /* Tamaños - COMPACTOS */
+    --header-height: 56px;
+    --row-height: 40px;
+    --sidebar-width: 260px;
+    --border-radius: 4px;
+    --input-height: 28px;
+    --cell-padding: 6px 8px;
+    --transition: all 0.2s ease-in-out;
+}
+
+/* Optimizaciones para tamaño compacto */
+body {
+    background-color: var(--body-bg);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+/* Layout */
+.app-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.main-content {
+    flex: 1;
+    padding: 0;
+    max-width: 100%;
+}
+
+.calificaciones-container {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cabecera compacta */
+.page-header {
+    background-color: var(--content-bg);
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.75rem 1rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.header-title h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0 0 0.125rem 0;
+    color: var(--text-primary);
+}
+
+.header-subtitle {
+    display: flex;
+    gap: 0.375rem;
+    margin-top: 0.125rem;
+    flex-wrap: wrap;
+}
+
+.header-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* Badges compactos */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    background-color: var(--primary-light);
+    color: var(--primary-color);
+}
+
+.badge-info {
+    background-color: #e0f7fa;
+    color: #0097a7;
+}
+
+/* Botones compactos */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.375rem;
+    padding: 0.375rem 0.75rem;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: var(--transition);
+    border: none;
+    height: var(--input-height);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #2563eb;
+}
+
+.btn-secondary {
+    background-color: white;
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+
+.btn-secondary:hover {
+    background-color: #f1f5f9;
+}
+
+/* Estadísticas muy compactas - en línea */
+.stats-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--content-bg);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.stat-card {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background-color: var(--content-bg);
+    border-radius: var(--border-radius);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+    flex: 0 0 auto;
+    min-width: 120px;
+}
+
+.stat-icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    color: white;
+}
+
+.stat-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-value {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.stat-label {
+    font-size: 0.6875rem;
+    color: var(--text-secondary);
+}
+
+/* Colores específicos para cada estadística */
+.stat-estudiantes .stat-icon {
+    background-color: #3b82f6;
+}
+
+.stat-promedio .stat-icon {
+    background-color: #8b5cf6;
+}
+
+.stat-aprobados .stat-icon {
+    background-color: var(--success-color);
+}
+
+.stat-reprobados .stat-icon {
+    background-color: var(--danger-color);
+}
+
+/* Tabs compactos */
+.tabbed-interface {
+    padding: 0.75rem;
+}
+
+.tab-nav {
+    display: flex;
+    gap: 0.375rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.375rem;
+}
+
+.tab-btn {
+    border: none;
+    background: none;
+    padding: 0.375rem 0.625rem;
+    font-weight: 600;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+}
+
+.tab-btn:hover {
+    background-color: var(--primary-light);
+    color: var(--primary-color);
+}
+
+.tab-btn.active {
+    background-color: var(--primary-light);
+    color: var(--primary-color);
+    position: relative;
+}
+
+.tab-btn.active::after {
+    content: '';
+    position: absolute;
+    bottom: -0.375rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1.5rem;
+    height: 2px;
+    background-color: var(--primary-color);
+    border-radius: 9999px;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Tabla muy compacta */
+.table-responsive {
+    background-color: var(--content-bg);
+    border-radius: var(--border-radius);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    overflow: auto;
+    width: 100%;
+}
+
+.calificaciones-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 0.75rem;
+}
+
+.calificaciones-table th,
+.calificaciones-table td {
+    padding: var(--cell-padding);
+    border-bottom: 1px solid var(--border-color);
+    height: var(--row-height);
+    vertical-align: middle;
+}
+
+.calificaciones-table thead th {
+    background-color: #f8fafc;
+    font-weight: 600;
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 32px;
+}
+
+.calificaciones-table th:first-child {
+    text-align: left;
+    position: sticky;
+    left: 0;
+    z-index: 3;
+    background-color: #f8fafc;
+    min-width: 240px; /* Aumentado para nombres más largos */
+    width: 240px;
+}
+
+.calificaciones-table td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: var(--content-bg);
+    z-index: 1;
+    min-width: 240px; /* Aumentado para nombres más largos */
+    width: 240px;
+    height: auto;
+    min-height: var(--row-height);
+    max-height: none;
+}
+
+/* Asegurarse de que la celda de primer hijo sea lo suficientemente grande */
+.calificaciones-table tr:nth-child(even) td:first-child {
+    background-color: #f9fafc;
+}
+
+.calificaciones-table tbody tr:nth-child(even) {
+    background-color: #f9fafc;
+}
+
+.calificaciones-table tbody tr:hover {
+    background-color: #f0f7ff;
+}
+
+/* Estilo para cabeceras de categorías */
+.nota-header {
+    transition: var(--transition);
+    min-width: 50px;
+    width: 50px; /* Ancho fijo para columnas de notas */
+}
+
+.nota-header.tareas {
+    background-color: var(--tareas-light);
+}
+
+.nota-header.evaluaciones {
+    background-color: var(--evaluaciones-light);
+}
+
+.nota-header.autoevaluacion {
+    background-color: var(--autoevaluacion-light);
+}
+
+.nota-header-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+    align-items: center;
+}
+
+.nota-header-content i {
+    font-size: 0.625rem;
+}
+
+.nota-header-content span {
+    font-size: 0.6875rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    max-width: 50px;
+}
+
+.nota-header-content small {
+    font-size: 0.6rem;
+}
+
+.nota-header.tareas i {
+    color: var(--tareas-color);
+}
+
+.nota-header.evaluaciones i {
+    color: var(--evaluaciones-color);
+}
+
+.nota-header.autoevaluacion i {
+    color: var(--autoevaluacion-color);
+}
+
+/* Información de estudiante con soporte para nombres largos */
+.student-info-cell {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 0;
+    width: 100%;
+    position: relative;
+}
+
+.student-photo {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: var(--primary-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 0.6875rem;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.student-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.student-details {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    flex: 1;
+    width: calc(100% - 2.25rem); /* Considera el espacio de la foto */
+}
+
+/* Versión consolidada de student-name */
+.student-name {
+    font-weight: 600;
+    color: var(--text-primary);
+    width: 100%;
+    font-size: 0.75rem;
+    position: relative;
+    line-height: 1.2;
+    max-width: 210px;
+    
+    /* Para nombres largos con elipsis */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    /* Soporte adicional para nombres largos */
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+/* Consolidar comportamiento hover */
+.student-name:hover {
+    position: relative;
+    z-index: 10;
+    overflow: visible;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+.student-name:hover::after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+    top: -20px;
+    background-color: #333;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    white-space: nowrap;
+    z-index: 20;
+}
+
+.student-document {
+    font-size: 0.6875rem;
+    color: var(--text-secondary);
+}
+
+/* Inputs de calificación compactos */
+.grade-input {
+    width: 3rem;
+    height: var(--input-height);
+    padding: 0.25rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-size: 0.75rem;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.grade-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
+}
+
+.grade-input.tareas:focus {
+    border-color: var(--tareas-color);
+    box-shadow: 0 0 0 2px rgba(2, 132, 199, 0.1);
+}
+
+.grade-input.evaluaciones:focus {
+    border-color: var(--evaluaciones-color);
+    box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.1);
+}
+
+.grade-input.autoevaluacion:focus {
+    border-color: var(--autoevaluacion-color);
+    box-shadow: 0 0 0 2px rgba(22, 163, 74, 0.1);
+}
+
+/* Celda de nota definitiva compacta */
+.definitiva-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.125rem;
+}
+
+.final-grade {
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding: 0.125rem 0.375rem;
+    border-radius: var(--border-radius);
+    min-width: 2.5rem;
+    text-align: center;
+}
+
+.nota-excelente {
+    color: var(--nota-excelente);
+    background-color: rgba(16, 185, 129, 0.1);
+}
+
+.nota-buena {
+    color: var(--nota-buena);
+    background-color: rgba(59, 130, 246, 0.1);
+}
+
+.nota-aceptable {
+    color: var(--nota-aceptable);
+    background-color: rgba(245, 158, 11, 0.1);
+}
+
+.nota-baja {
+    color: var(--nota-baja);
+    background-color: rgba(239, 68, 68, 0.1);
+}
+
+.status-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.125rem;
+    font-size: 0.625rem;
+}
+
+.status-complete {
+    color: var(--nota-excelente);
+}
+
+.status-incomplete {
+    color: var(--nota-aceptable);
+}
+
+/* Vista de tarjetas más compacta */
+.students-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 0.75rem;
+}
+
+.student-card {
+    background-color: var(--content-bg);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid var(--border-color);
+    font-size: 0.75rem;
+}
+
+.student-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.08);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    padding: 0.625rem;
+    background-color: var(--primary-light);
+    position: relative;
+}
+
+.card-header .student-photo {
+    width: 2.25rem;
+    height: 2.25rem;
+    font-size: 0.875rem;
+}
+
+.student-info {
+    margin-left: 0.5rem;
+    flex: 1;
+    min-width: 0;
+    width: calc(100% - 2.75rem - 2.25rem); /* Ancho disponible menos foto y nota */
+}
+
+.card-header .student-name {
+    font-size: 0.8125rem;
+    margin: 0 0 0.125rem 0;
+    color: var(--text-primary);
+    max-width: 100%;
+    width: 100%;
+}
+
+.student-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    flex-wrap: wrap;
+}
+
+.card-grade {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: white;
+    background-color: var(--text-secondary);
+    margin-left: 0.375rem;
+    font-size: 0.875rem;
+    flex-shrink: 0;
+}
+
+.card-grade.nota-excelente {
+    background-color: var(--nota-excelente);
+}
+
+.card-grade.nota-buena {
+    background-color: var(--nota-buena);
+}
+
+.card-grade.nota-aceptable {
+    background-color: var(--nota-aceptable);
+}
+
+.card-grade.nota-baja {
+    background-color: var(--nota-baja);
+}
+
+.card-body {
+    padding: 0.625rem;
+}
+
+.categoria-group {
+    margin-bottom: 0.75rem;
+    padding: 0.5rem;
+    background-color: #f8fafc;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    font-size: 0.75rem;
+}
+
+.categoria-group:last-child {
+    margin-bottom: 0;
+}
+
+.categoria-title {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.categoria-group:nth-child(1) .categoria-title {
+    color: var(--tareas-color);
+}
+
+.categoria-group:nth-child(2) .categoria-title {
+    color: var(--evaluaciones-color);
+}
+
+.categoria-group:nth-child(3) .categoria-title {
+    color: var(--autoevaluacion-color);
+}
+
+.notas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+    gap: 0.5rem;
+}
+
+.nota-card-item {
+    background-color: white;
+    padding: 0.375rem 0.25rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+}
+
+.nota-card-label {
+    font-size: 0.625rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nota-card-percent {
+    font-size: 0.5625rem;
+    padding: 0.0625rem 0.25rem;
+    border-radius: 0.25rem;
+    background-color: #f1f5f9;
+    font-weight: 600;
+}
+
+.card-footer {
+    padding: 0.5rem;
+    background-color: #f8fafc;
+    border-top: 1px solid var(--border-color);
+}
+
+.completion-status {
+    display: flex;
+    flex-direction: column;
+}
+
+.progress-bar {
+    height: 0.375rem;
+    background-color: #e2e8f0;
+    border-radius: 9999px;
+    overflow: hidden;
+    margin-bottom: 0.25rem;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 9999px;
+    background-color: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+/* Alertas y notificaciones compactas */
+.alert {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.75rem;
+    border-radius: var(--border-radius);
+    margin: 0.75rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    gap: 0.625rem;
+    font-size: 0.75rem;
+}
+
+.alert-error {
+    background-color: #fee2e2;
+    border-left: 3px solid var(--danger-color);
+    color: #b91c1c;
+}
+
+.alert-icon {
+    font-size: 1rem;
+    color: var(--danger-color);
+}
+
+.alert-content h3 {
+    margin: 0 0 0.25rem 0;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+/* Toast de notificaciones */
+.toast {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.05);
+    display: none;
+    align-items: center;
+    padding: 0.625rem 0.75rem;
+    gap: 0.5rem;
+    z-index: 50;
+    max-width: 20rem;
+    font-size: 0.75rem;
+}
+
+.toast.show {
+    display: flex;
+    animation: toast-in 0.3s ease forwards;
+}
+
+.toast-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: rgba(16, 185, 129, 0.1);
+    color: var(--success-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 0.75rem;
+}
+
+.toast-content {
+    flex: 1;
+}
+
+.toast-title {
+    font-weight: 600;
+    margin-bottom: 0.125rem;
+    font-size: 0.75rem;
+}
+
+@keyframes toast-in {
+    from {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Overlay de carga */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.loading-overlay.active {
+    display: flex;
+}
+
+.spinner {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid rgba(59, 130, 246, 0.2);
+    border-radius: 50%;
+    border-top-color: var(--primary-color);
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Mejoras para filas con muchas columnas */
+.calificaciones-table thead th:not(:first-child):not(:last-child) {
+    writing-mode: vertical-lr;
+    height: 80px;
+    white-space: nowrap;
+    padding: 8px 0;
+    text-align: left;
+    vertical-align: bottom;
+    transform: rotate(180deg);
+}
+
+.calificaciones-table th:last-child {
+    position: sticky;
+    right: 0;
+    background-color: #f8fafc;
+    z-index: 2;
+}
+
+.calificaciones-table td:last-child {
+    position: sticky;
+    right: 0;
+    background-color: var(--content-bg);
+    z-index: 1;
+}
+
+.calificaciones-table tr:nth-child(even) td:last-child {
+    background-color: #f9fafc;
+}
+
+/* Diseños específicos para tablas con muchos estudiantes */
+.calificaciones-table tbody tr {
+    height: var(--row-height);
+}
+
+/* Clase para activar el nombre completo */
+.show-full-name {
+    white-space: normal !important;
+    position: absolute;
+    background-color: #fff;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    padding: 5px;
+    border-radius: 4px;
+    max-width: 300px;
+    width: auto;
+}
+
+/* JS añadirá esta clase al hacer clic en el nombre para mostrarlo completo */
+.expand-on-click:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+/* Responsive - optimizado para muchos estudiantes */
+@media (max-width: 1024px) {
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .header-actions {
+        margin-top: 0.375rem;
+        width: 100%;
+    }
+    
+    .calificaciones-table {
+        font-size: 0.6875rem;
+    }
+    
+    .nota-header {
+        min-width: 40px;
+        width: 40px;
+    }
+    
+    .grade-input {
+        width: 2.5rem;
+    }
+    
+    /* Mantener la primera columna más ancha */
+    .calificaciones-table th:first-child,
+    .calificaciones-table td:first-child {
+        min-width: 220px;
+        width: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .stat-card {
+        min-width: auto;
+        flex: 1 1 100px;
+    }
+    
+    .students-grid {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+    
+    /* Mantener un ancho mínimo para la columna de nombre */
+    .calificaciones-table td:first-child {
+        min-width: 200px;
+        width: 200px;
+    }
+    
+    .student-photo {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+    .nota-header-content span {
+        font-size: 0.625rem;
+    }
+    
+    .student-name {
+        max-width: 170px;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-header {
+        padding: 0.5rem;
+    }
+    
+    .header-title h1 {
+        font-size: 1rem;
+    }
+    
+    .tabbed-interface {
+        padding: 0.5rem 0.25rem;
+    }
+    
+    /* Aún con pantalla pequeña, mantener espacio para el nombre */
+    .calificaciones-table td:first-child {
+        min-width: 180px;
+        width: 180px;
+    }
+    
+    .student-name {
+        max-width: 150px;
+    }
+    
+    .alert-content h3 {
+        font-size: 0.75rem;
+    }
+}
+
+/* Adaptación para scrolling horizontal con muchas columnas */
+@media (max-width: 1366px) {
+    /* Hacemos que la tabla sea scrollable horizontalmente */
+    .table-responsive {
+        max-width: 100%;
+        overflow-x: auto;
+    }
+    
+    /* Mantener visible la columna de estudiantes */
+    .calificaciones-table th:first-child,
+    .calificaciones-table td:first-child {
+        position: sticky;
+        left: 0;
+        z-index: 2;
+    }
+    
+    /* Mantener visible la columna de definitiva */
+    .calificaciones-table td:last-child {
+        position: sticky;
+        right: 0;
+        z-index: 2;
+    }
+}
+
+/* Soporte para botón flotante de guardar */
+.floating-save-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.floating-save-button:hover {
+    background-color: #2563eb;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.floating-save-button:active {
+    transform: translateY(0);
+}
+
+.floating-save-button i {
+    font-size: 16px;
+}
+
+/* Estilos para los cuadros de mensaje */
+.message-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 20px;
+}
+
+.message-content {
+    background-color: #f8f9fa;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+}
+
+.message-content i {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #64748b;
+}
+
+.message-content p {
+    color: #4b5563;
+    font-size: 16px;
+}
+
+/* Estilos para modales */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 0;
+    overflow-y: auto;
+}
+
+.modal-content {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 700px;
+    max-height: 80vh;
+    overflow-y: auto;
+    margin: 0 auto;
+}
+
+.modal-header {
+    padding: 1rem;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-body {
+    padding: 1rem;
+}
+
+.modal-footer {
+    padding: 1rem;
+    border-top: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close, .cerrar-modal {
+    cursor: pointer;
+}
+
+/* Estilos para tipos de notas */
+.tipos-notas-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.categoria-box {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.categoria-header {
+    background-color: #f8fafc;
+    padding: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.categoria-header h3 {
+    margin: 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.progress-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    width: 150px;
+}
+
+.btn-add-tipo {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.categoria-content {
+    padding: 0.75rem;
+}
+
+.tipo-nota-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.tipo-nota-item:last-child {
+    border-bottom: none;
+}
+
+.tipo-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn-edit, .btn-delete {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-edit {
+    color: #3b82f6;
+}
+
+.btn-delete {
+    color: #ef4444;
+}
+
+.empty-list-message {
+    text-align: center;
+    padding: 1rem;
+    color: #64748b;
+}
+
+/* Estilos para input de tipo nota */
+.nota-input {
+    width: 100%;
+    height: var(--input-height);
+    padding: 0.25rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-size: 0.75rem;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.nota-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
+}
+
+.nota-input.tareas:focus {
+    border-color: var(--tareas-color);
+    box-shadow: 0 0 0 2px rgba(2, 132, 199, 0.1);
+}
+
+.nota-input.evaluaciones:focus {
+    border-color: var(--evaluaciones-color);
+    box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.1);
+}
+
+.nota-input.autoevaluacion:focus {
+    border-color: var(--autoevaluacion-color);
+    box-shadow: 0 0 0 2px rgba(22, 163, 74, 0.1);
+}
+
+/* Alternativas para nombres largos en pantallas grandes */
+@media (min-width: 1024px) {
+    /* En pantallas grandes, dar más espacio a los nombres */
+    .calificaciones-table th:first-child,
+    .calificaciones-table td:first-child {
+        min-width: 280px;
+        width: 280px;
+    }
+    
+    .student-name {
+        max-width: 250px;
+    }
+}

@@ -1,0 +1,270 @@
+/* Design Tokens */
+:root {
+    /* Colores principales */
+    --topbar-bg: #2C3E50;
+    --topbar-text: #ECF0F1;
+    --topbar-hover: #34495E;
+    --accent-blue: #3498DB;
+    --accent-red: #E74C3C;
+    
+    /* Dimensiones */
+    --topbar-height: 64px;
+    --icon-size: 20px;
+}
+
+/* Estilos del topbar */
+.top-bar {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    border-radius: 25px;  /* Aumentar el radio del borde */
+    margin: 1rem 1.5rem;  /* Ajustar los márgenes */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* Sombra más suave */
+}
+
+/* Contenedor izquierdo */
+.top-bar-left {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* Botón del sidebar */
+#sidebar-toggle {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s;
+}
+
+#sidebar-toggle:hover {
+    transform: scale(1.1);
+}
+
+/* Navegación */
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.95rem;
+}
+
+.breadcrumb a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Contenedor derecho */
+.top-bar-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+}
+
+/* Mensaje de bienvenida y tiempo */
+.welcome-message,
+.top-bar-time {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+}
+
+.top-bar-time i {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Logo y título */
+.top-bar-brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.brand-logo {
+    font-size: 24px;
+    color: var(--accent-blue);
+}
+
+.brand-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--topbar-text);
+}
+
+/* Navegación principal */
+.top-bar-nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    color: var(--topbar-text);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+}
+
+.nav-link:hover {
+    background-color: var(--topbar-hover);
+}
+
+.nav-link i {
+    margin-right: 8px;
+}
+
+/* Acciones rápidas */
+.top-bar-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.action-button {
+    background: none;
+    border: none;
+    color: var(--topbar-text);
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.action-button:hover {
+    background-color: var(--topbar-hover);
+}
+
+/* Notificaciones */
+.notifications-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: var(--accent-red);
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    border: 2px solid var(--topbar-bg);
+}
+
+/* Perfil de usuario */
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.user-profile:hover {
+    background-color: var(--topbar-hover);
+}
+
+.user-avatar {
+    width: 36px;
+    height: 36px;
+    background-color: var(--accent-blue);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+.user-info {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .user-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .user-name {
+        color: var(--topbar-text);
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .user-role {
+        color: rgba(255,255,255,0.7);
+        font-size: 12px;
+    }
+}
+
+/* Menú desplegable */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    min-width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.2s;
+}
+
+.dropdown-menu.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.dropdown-item:hover {
+    background-color: #f5f5f5;
+}
+
+.dropdown-item i {
+    color: var(--accent-blue);
+    width: 16px;
+}
+
+.dropdown-divider {
+    height: 1px;
+    background-color: #eee;
+    margin: 8px 0;
+}

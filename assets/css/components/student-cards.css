@@ -1,0 +1,342 @@
+/* ===== CONTENEDOR DE ESTUDIANTES ===== */
+.students-container {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+/* ==== VISTA DE CUADRÍCULA ==== */
+.students-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+/* Vista compacta */
+.students-grid.compact-view {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+/* Vista de lista */
+.students-grid.list-view {
+    display: block;
+}
+
+/* ==== TARJETAS DE ESTUDIANTE ==== */
+.student-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid #e5e7eb;
+    position: relative;
+}
+
+.student-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* Cabecera de tarjeta */
+.student-header {
+    padding: 0;
+    position: relative;
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.student-status {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.25rem 0.5rem;
+    border-radius: 50px;
+}
+
+.status-active {
+    background-color: #10b981;
+    color: white;
+}
+
+.status-inactive {
+    background-color: #ef4444;
+    color: white;
+}
+
+.student-title-container {
+    padding: 0.75rem 1rem;
+    z-index: 1;
+}
+
+.student-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+/* Contenido de tarjeta */
+.student-content {
+    padding: 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.student-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.info-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: rgba(59, 130, 246, 0.1);
+    color: #3b82f6;
+    flex-shrink: 0;
+}
+
+.info-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-label {
+    font-size: 0.75rem;
+    color: #6b7280;
+    margin-bottom: 0.15rem;
+}
+
+.info-value {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #1f2937;
+}
+
+/* Acciones de tarjeta */
+.student-actions {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    padding-top: 0.75rem;
+    margin-top: auto;
+    border-top: 1px solid #e5e7eb;
+}
+
+.action-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-edit { background: #3b82f6; }
+.btn-password { background: #f59e0b; }
+.btn-delete { background: #ef4444; }
+.btn-disable { background: #ef4444; }
+.btn-enable { background: #10b981; }
+
+.action-btn:hover {
+    filter: brightness(110%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ==== VISTA DE TABLA ==== */
+.students-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    display: none;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.list-view .students-table {
+    display: table;
+}
+
+.list-view .student-card {
+    display: none;
+}
+
+.students-table th, 
+.students-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+.students-table th {
+    background: #f8fafc;
+    font-weight: 600;
+    color: #1f2937;
+    font-size: 0.875rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.students-table tr {
+    background: white;
+}
+
+.students-table tr:not(:last-child) td {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.students-table tr:hover {
+    background: rgba(59, 130, 246, 0.03);
+}
+
+.table-badge {
+    font-size: 0.65rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.15rem 0.5rem;
+    border-radius: 9999px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.badge-active {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.badge-inactive {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.table-actions {
+    display: flex;
+    gap: 0.35rem;
+    justify-content: flex-end;
+}
+
+/* ==== MENSAJE SIN RESULTADOS ==== */
+.no-results {
+    grid-column: 1 / -1;
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.no-results-icon {
+    font-size: 2.5rem;
+    color: #6b7280;
+    margin-bottom: 1rem;
+}
+
+.no-results-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+}
+
+.no-results-text {
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+    font-size: 0.9375rem;
+}
+
+/* Estilos de paginación */
+.pagination-container {
+    padding: 1rem 1.5rem;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.pagination button {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.pagination button:hover {
+    background: #f3f4f6;
+}
+
+.pagination button.active {
+    background: #3b82f6;
+    color: white;
+    border-color: #3b82f6;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .students-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .student-header {
+        height: 50px;
+    }
+    
+    .student-name {
+        font-size: 1rem;
+    }
+    
+    .info-icon {
+        width: 28px;
+        height: 28px;
+    }
+}

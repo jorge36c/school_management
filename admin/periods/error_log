@@ -1,0 +1,409 @@
+[25-Mar-2025 22:49:24 America/Bogota] GET params: Array
+(
+    [sede_id] => 15
+    [nivel] => media
+)
+
+[25-Mar-2025 22:49:24 America/Bogota] Buscando grados para sede_id: 15 y nivel: media
+[25-Mar-2025 22:49:24 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [nombre] => Décimo A
+        )
+
+    [1] => Array
+        (
+            [nombre] => Once A
+        )
+
+)
+
+[25-Mar-2025 22:49:27 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 9
+[25-Mar-2025 22:49:27 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 10
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 270
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 271
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 272
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 273
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 274
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 275
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 276
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 277
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 278
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 279
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 280
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 281
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 282
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 283
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 284
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 285
+[25-Mar-2025 22:49:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 286
+[25-Mar-2025 22:50:07 America/Bogota] GET params: Array
+(
+    [sede_id] => 15
+    [nivel] => secundaria
+)
+
+[25-Mar-2025 22:50:07 America/Bogota] Buscando grados para sede_id: 15 y nivel: secundaria
+[25-Mar-2025 22:50:07 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [nombre] => Noveno A
+        )
+
+    [1] => Array
+        (
+            [nombre] => Octavo A
+        )
+
+    [2] => Array
+        (
+            [nombre] => Septimo A
+        )
+
+    [3] => Array
+        (
+            [nombre] => Sexto A
+        )
+
+)
+
+[25-Mar-2025 22:50:10 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 9
+[25-Mar-2025 22:50:10 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 10
+[27-Mar-2025 08:59:07 America/Bogota] GET params: Array
+(
+    [sede_id] => 15
+    [nivel] => media
+)
+
+[27-Mar-2025 08:59:07 America/Bogota] Buscando grados para sede_id: 15 y nivel: media
+[27-Mar-2025 08:59:07 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [nombre] => Décimo A
+        )
+
+    [1] => Array
+        (
+            [nombre] => Once A
+        )
+
+)
+
+[27-Mar-2025 08:59:10 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 9
+[27-Mar-2025 08:59:10 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 10
+[27-Mar-2025 08:59:54 America/Bogota] GET params: Array
+(
+    [sede_id] => 15
+    [nivel] => secundaria
+)
+
+[27-Mar-2025 08:59:54 America/Bogota] Buscando grados para sede_id: 15 y nivel: secundaria
+[27-Mar-2025 08:59:54 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [nombre] => Noveno A
+        )
+
+    [1] => Array
+        (
+            [nombre] => Octavo A
+        )
+
+    [2] => Array
+        (
+            [nombre] => Septimo A
+        )
+
+    [3] => Array
+        (
+            [nombre] => Sexto A
+        )
+
+)
+
+[27-Mar-2025 08:59:56 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 9
+[27-Mar-2025 08:59:56 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 10
+[27-Mar-2025 09:01:51 America/Bogota] Intentando editar periodo con ID: 7
+[27-Mar-2025 09:01:51 America/Bogota] SQL Query: 
+        SELECT 
+            pa.id,
+            pa.ano_lectivo_id,
+            pa.numero_periodo,
+            pa.fecha_inicio,
+            pa.fecha_fin,
+            pa.porcentaje_calificacion,
+            pa.estado_periodo,
+            pa.estado,
+            al.nombre as ano_lectivo_nombre
+        FROM periodos_academicos pa
+        JOIN anos_lectivos al ON pa.ano_lectivo_id = al.id
+        WHERE pa.id = ? 
+        AND pa.estado = 'activo'
+    
+[27-Mar-2025 09:01:51 America/Bogota] Periodo ID buscado: 7
+[27-Mar-2025 09:01:51 America/Bogota] Datos del periodo: Array
+(
+    [id] => 7
+    [ano_lectivo_id] => 4
+    [numero_periodo] => 1
+    [fecha_inicio] => 2025-01-19
+    [fecha_fin] => 2025-03-30
+    [porcentaje_calificacion] => 25.00
+    [estado_periodo] => en_curso
+    [estado] => activo
+    [ano_lectivo_nombre] => Año Lectivo 2025
+)
+
+[27-Mar-2025 09:01:51 America/Bogota] Periodo encontrado: Array
+(
+    [id] => 7
+    [ano_lectivo_id] => 4
+    [numero_periodo] => 1
+    [fecha_inicio] => 2025-01-19
+    [fecha_fin] => 2025-03-30
+    [porcentaje_calificacion] => 25.00
+    [estado_periodo] => en_curso
+    [estado] => activo
+    [ano_lectivo_nombre] => Año Lectivo 2025
+)
+
+[27-Mar-2025 09:02:27 America/Bogota] GET params: Array
+(
+    [sede_id] => 15
+    [nivel] => secundaria
+)
+
+[27-Mar-2025 09:02:27 America/Bogota] Buscando grados para sede_id: 15 y nivel: secundaria
+[27-Mar-2025 09:02:27 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [nombre] => Noveno A
+        )
+
+    [1] => Array
+        (
+            [nombre] => Octavo A
+        )
+
+    [2] => Array
+        (
+            [nombre] => Septimo A
+        )
+
+    [3] => Array
+        (
+            [nombre] => Sexto A
+        )
+
+)
+
+[27-Mar-2025 09:02:30 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 9
+[27-Mar-2025 09:02:30 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 10
+[27-Mar-2025 22:12:10 America/Bogota] GET params: Array
+(
+    [sede_id] => 15
+    [nivel] => media
+)
+
+[27-Mar-2025 22:12:10 America/Bogota] Buscando grados para sede_id: 15 y nivel: media
+[27-Mar-2025 22:12:10 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [nombre] => Décimo A
+        )
+
+    [1] => Array
+        (
+            [nombre] => Once A
+        )
+
+)
+
+[27-Mar-2025 22:12:13 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 9
+[27-Mar-2025 22:12:13 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 10
+[29-Mar-2025 21:46:27 America/Bogota] GET params: Array
+(
+    [sede_id] => 15
+    [nivel] => preescolar
+)
+
+[29-Mar-2025 21:46:27 America/Bogota] Buscando grados para sede_id: 15 y nivel: preescolar
+[29-Mar-2025 21:46:27 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [nombre] => Preescolar
+        )
+
+)
+
+[29-Mar-2025 21:46:29 America/Bogota] GET params: Array
+(
+    [sede_id] => 15
+    [nivel] => media
+)
+
+[29-Mar-2025 21:46:29 America/Bogota] Buscando grados para sede_id: 15 y nivel: media
+[29-Mar-2025 21:46:29 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [nombre] => Décimo A
+        )
+
+    [1] => Array
+        (
+            [nombre] => Once A
+        )
+
+)
+
+[29-Mar-2025 21:46:32 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 9
+[29-Mar-2025 21:46:32 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 10
+[29-Mar-2025 21:49:13 America/Bogota] GET params: Array
+(
+    [sede_id] => 30
+    [nivel] => primaria
+)
+
+[29-Mar-2025 21:49:13 America/Bogota] Buscando grados para sede_id: 30 y nivel: primaria
+[29-Mar-2025 21:49:13 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [nombre] => Tercero A
+        )
+
+)
+
+[29-Mar-2025 21:49:21 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 9
+[29-Mar-2025 21:49:21 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 10
+[29-Mar-2025 21:50:09 America/Bogota] GET params: Array
+(
+    [sede_id] => 2
+    [nivel] => primaria
+)
+
+[29-Mar-2025 21:50:09 America/Bogota] Buscando grados para sede_id: 2 y nivel: primaria
+[29-Mar-2025 21:50:09 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [nombre] => Primero A
+        )
+
+    [2] => Array
+        (
+            [nombre] => Quinto A
+        )
+
+    [3] => Array
+        (
+            [nombre] => Segundo A
+        )
+
+    [4] => Array
+        (
+            [nombre] => Tercero A
+        )
+
+)
+
+[29-Mar-2025 21:50:10 America/Bogota] GET params: Array
+(
+    [sede_id] => 2
+    [nivel] => preescolar
+)
+
+[29-Mar-2025 21:50:10 America/Bogota] Buscando grados para sede_id: 2 y nivel: preescolar
+[29-Mar-2025 21:50:10 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [nombre] => Preescolar
+        )
+
+)
+
+[29-Mar-2025 21:50:13 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 9
+[29-Mar-2025 21:50:13 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 10
+[29-Mar-2025 21:50:13 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 360
+[29-Mar-2025 21:50:24 America/Bogota] GET params: Array
+(
+    [sede_id] => 8
+    [nivel] => preescolar
+)
+
+[29-Mar-2025 21:50:24 America/Bogota] Buscando grados para sede_id: 8 y nivel: preescolar
+[29-Mar-2025 21:50:24 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [nombre] => Preescolar
+        )
+
+)
+
+[29-Mar-2025 21:50:27 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 9
+[29-Mar-2025 21:50:27 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 10
+[29-Mar-2025 21:50:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 384
+[29-Mar-2025 21:50:27 America/Bogota] No se encontraron materias/calificaciones para el estudiante ID: 385
+[29-Mar-2025 21:50:37 America/Bogota] GET params: Array
+(
+    [sede_id] => 9
+    [nivel] => primaria
+)
+
+[29-Mar-2025 21:50:37 America/Bogota] Buscando grados para sede_id: 9 y nivel: primaria
+[29-Mar-2025 21:50:37 America/Bogota] Grados encontrados: Array
+(
+    [0] => Array
+        (
+            [nombre] => Cuarto A
+        )
+
+    [1] => Array
+        (
+            [nombre] => Segundo A
+        )
+
+    [2] => Array
+        (
+            [nombre] => Tercero A
+        )
+
+)
+
+[29-Mar-2025 21:50:40 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 9
+[29-Mar-2025 21:50:40 America/Bogota] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/iesantan/public_html/school_management/admin/periods/generate_report_cards.php on line 10

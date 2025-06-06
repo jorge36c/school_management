@@ -1,0 +1,399 @@
+/* ===== CONTENEDOR DE SEDES ===== */
+.sedes-container {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+/* ==== VISTA DE CUADRÍCULA ==== */
+.sedes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+/* Vista compacta */
+.sedes-grid.compact-view {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+/* Vista de lista */
+.sedes-grid.list-view {
+    display: block;
+}
+
+/* ==== TARJETAS DE SEDE MEJORADAS ==== */
+.sede-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid var(--gray-light);
+    position: relative;
+}
+
+.sede-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* Cabecera de tarjeta */
+.sede-header {
+    padding: 0;
+    position: relative;
+    background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%);
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sede-status {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.25rem 0.5rem;
+    border-radius: 50px;
+}
+
+.status-active {
+    background-color: var(--success);
+    color: white;
+}
+
+.status-inactive {
+    background-color: var(--danger);
+    color: white;
+}
+
+.sede-title-container {
+    padding: 0.75rem 1rem;
+    z-index: 1;
+}
+
+.sede-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.sede-code-container {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.sede-code {
+    font-size: 0.7rem;
+    background: white;
+    color: var(--dark);
+    border-radius: 50px;
+    padding: 0.2rem 0.6rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Contenido de tarjeta */
+.sede-content {
+    padding: 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sede-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.info-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: rgba(79, 70, 229, 0.1);
+    color: var(--primary);
+    flex-shrink: 0;
+}
+
+.info-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-label {
+    font-size: 0.75rem;
+    color: var(--gray);
+    margin-bottom: 0.15rem;
+}
+
+.info-value {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--dark);
+}
+
+/* Acciones de tarjeta */
+.sede-actions {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    padding-top: 0.75rem;
+    margin-top: auto;
+    border-top: 1px solid var(--gray-light);
+}
+
+.action-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-view { background: var(--primary); }
+.btn-edit { background: var(--info); }
+.btn-disable { background: var(--danger); }
+.btn-enable { background: var(--success); }
+
+.action-btn:hover {
+    filter: brightness(110%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ==== VISTA DE TABLA ==== */
+.sedes-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    display: none;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.list-view .sedes-table {
+    display: table;
+}
+
+.list-view .sede-card {
+    display: none;
+}
+
+.sedes-table th, 
+.sedes-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+.sedes-table th {
+    background: var(--light);
+    font-weight: 600;
+    color: var(--dark);
+    font-size: 0.875rem;
+    border-bottom: 1px solid var(--gray-light);
+}
+
+.sedes-table tr {
+    background: white;
+}
+
+.sedes-table tr:not(:last-child) td {
+    border-bottom: 1px solid var(--gray-light);
+}
+
+.sedes-table tr:hover {
+    background: rgba(79, 70, 229, 0.03);
+}
+
+.table-badge {
+    font-size: 0.65rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.15rem 0.5rem;
+    border-radius: 9999px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.badge-active {
+    background: var(--success-light);
+    color: var(--success);
+}
+
+.badge-inactive {
+    background: var(--danger-light);
+    color: var(--danger);
+}
+
+.table-actions {
+    display: flex;
+    gap: 0.35rem;
+    justify-content: flex-end;
+}
+
+/* ==== MENSAJE SIN RESULTADOS ==== */
+.no-results {
+    grid-column: 1 / -1;
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.no-results-icon {
+    font-size: 2.5rem;
+    color: var(--gray);
+    margin-bottom: 1rem;
+}
+
+.no-results-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 0.5rem;
+}
+
+.no-results-text {
+    color: var(--gray);
+    margin-bottom: 1.5rem;
+    font-size: 0.9375rem;
+}
+
+.clear-filters-btn {
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.clear-filters-btn:hover {
+    background: var(--primary-dark);
+    transform: translateY(-2px);
+}
+
+/* ==== TOOLTIPS ==== */
+[data-tooltip] {
+    position: relative;
+}
+
+[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(31, 41, 55, 0.95);
+    color: white;
+    padding: 0.35rem 0.75rem;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    white-space: nowrap;
+    z-index: 100;
+    margin-bottom: 0.5rem;
+    pointer-events: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+[data-tooltip]:hover::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgba(31, 41, 55, 0.95) transparent transparent transparent;
+    z-index: 100;
+    margin-bottom: -6px;
+    pointer-events: none;
+}
+
+/* Estilos responsive */
+@media (max-width: 768px) {
+    .sedes-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .sede-header {
+        height: 50px;
+    }
+    
+    .sede-name {
+        font-size: 1rem;
+    }
+    
+    .sede-code-container {
+        top: 50px;
+    }
+    
+    .info-icon {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .sedes-table th:nth-child(2),
+    .sedes-table td:nth-child(2),
+    .sedes-table th:nth-child(4),
+    .sedes-table td:nth-child(4) {
+        display: none;
+    }
+}name {
+    font-weight: 500;
+    color: var(--dark);
+}
+
+.table-
